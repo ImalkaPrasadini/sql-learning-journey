@@ -43,6 +43,3 @@ FROM students;
 SELECT *,
        PERCENT_RANK() OVER(PARTITION BY Class ORDER BY Marks DESC) AS student_percent_rank
 FROM students;
-
-
-Article:- https://medium.com/p/sql-window-functions-analyze-data-without-losing-row-level-detail-dce1b81f3035?source=social.linkedin&_nonce=lliXmQYM
